@@ -1,1 +1,74 @@
 /*Schrijf hier jouw css*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: blue 2px dashed;
+    background-color: #F2F3D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1 1 100vh;
+
+
+    .header-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1 1 30vh;
+        text-align: center;
+
+        h1 {
+            font-size: 60px;
+        }
+
+        h3 {
+            font-size: 55px;
+        }
+    }
+
+    .row-container {
+        border: #FFF 2px dashed;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+        flex: 0 0 30vw;
+
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .row-item1 {
+            background-color: #C16E70;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-end;
+            flex: 0 1 25vw;
+        }
+
+        .row-item2 {
+            background-color: #C16E70;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-end;
+            flex: 0 1 25vw;
+        }
+
+        .row-item3 {
+            background-color: #C16E70;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-end;
+            flex: 0 1 25vw;
+        }
+    }
+}
+
