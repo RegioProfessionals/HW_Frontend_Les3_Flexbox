@@ -1,1 +1,50 @@
 /*Schrijf hier jouw CSS*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    border: blue solid 2px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100vw;
+}
+header {
+    display: flex;
+    flex: 1 1 20vh;
+}
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 20vw;
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 80vw;
+
+}
+
+.main-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 80vh;
+
+    .article-width-aligne-text {
+        display: flex;
+        flex: 1 1 60vw;
+        flex-direction: column;
+        align-content: flex-start;
+        }
+    }
+    .aside-width {
+        display: flex;
+        flex: 0 0 20vw;
+    }
+}
+footer {
+    display: flex;
+    flex: 0 0 20vh;
+}
