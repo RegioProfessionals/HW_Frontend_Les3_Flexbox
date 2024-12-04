@@ -32,11 +32,12 @@ header {
     flex-direction: row;
     flex: 1 1 80vh;
 
-    .article-width-aligne-text {
+    .article-width-align-text {
         display: flex;
-        flex: 1 1 60vw;
+        flex: 1 0 60vw;
         flex-direction: column;
         align-content: flex-start;
+
         }
     }
     .aside-width {
