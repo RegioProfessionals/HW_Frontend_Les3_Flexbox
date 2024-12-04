@@ -6,6 +6,7 @@
 }
 
 body {
+    background-color: #F2F3D9;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -29,7 +30,7 @@ body {
     }
 
     .row-container {
-        border: #FFF 2px dashed;
+
         display: flex;
         flex-direction: row;
         justify-content: space-around;
