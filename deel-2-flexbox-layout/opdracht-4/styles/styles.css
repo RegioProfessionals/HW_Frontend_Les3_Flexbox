@@ -1,1 +1,78 @@
 /*Schrijf hier jouw CSS*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    border: orange 2px solid;
+    flex: 1 1 100vw;
+}
+
+.outer-col-1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 20vw;
+}
+
+.outer-col-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 80vw;
+
+    header {
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 80vw;
+    }
+    .header-height {
+        display: flex;
+        flex-direction: row;
+        flex: 1 0 20vh;
+    }
+
+    .inner-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        flex: 1 1 80vw;
+
+        .inner-col {
+            display: flex;
+            flex-direction: column;
+            flex: 1 0 80vh;
+
+        .article-height {
+            display: flex;
+            flex-direction: column;
+            flex: 1 0 60vh;
+        }
+
+
+            footer {
+                display: flex;
+                flex-direction: column;
+                flex: 1 1 20vh;
+
+            }
+        }
+
+            .aside-width {
+                display: flex;
+                flex-direction: row;
+                flex: 1 0 20vw;
+            }
+
+            /*footer {*/
+            /*    display: flex;*/
+            /*    flex-direction: row;*/
+            /*    flex: 1 1 20vh;*/
+            /*}*/
+
+
+        }
+    }

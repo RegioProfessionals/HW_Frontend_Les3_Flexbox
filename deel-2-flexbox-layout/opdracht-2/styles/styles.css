@@ -1,1 +1,49 @@
 /*Schrijf hier jouw CSS*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100vh;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20vh;
+    order: 1;
+
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 80vh;
+    order: 2;
+}
+header {
+    display: flex;
+    flex: 0 0 20vh;
+/*    500 words will lead to a header too big, how to change this?*/
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 60vh;
+
+    .article-stretch {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        flex: 1 1 60vw;
+    }
+}
+
+footer {
+    display: flex;
+    flex: 0 0 20vh;
+}
