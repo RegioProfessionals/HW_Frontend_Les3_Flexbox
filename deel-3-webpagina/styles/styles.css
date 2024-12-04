@@ -6,7 +6,6 @@
 }
 
 body {
-    border: blue 2px dashed;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
