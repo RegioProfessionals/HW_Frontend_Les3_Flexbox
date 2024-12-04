@@ -1,1 +1,48 @@
 /*Schrijf hier jouw CSS*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 5vh;
+}
+
+body {
+    border: orange dashed 1px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vh;
+}
+
+main {
+    border: indianred dashed 1px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 90vh;
+}
+
+.article-column {
+    display: flex;
+    flex-direction: column;
+    flex: 6 1 60vh;
+}
+.nav-column {
+    display: flex;
+    flex-direction: column;
+    flex: 2 0 20vh;
+}
+
+.aside-column {
+    display: flex;
+    flex-direction: column;
+    flex: 2 0 20vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 5vh;
+}
